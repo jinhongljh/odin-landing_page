@@ -84,7 +84,7 @@ body {
 .heroleft p {
 font-size: 18px;
 color: #E5E7EB;
-margin-bottom: 15px;
+margin-bottom: 30px;
 }
 
 .heroleft .btn {
@@ -104,7 +104,7 @@ margin-bottom: 15px;
 }
 .two h1 {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .two .blocks {
@@ -153,14 +153,13 @@ margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 200px;
 }
 
 .fourleft h1 {
     font-size: 20px;
     color: #E5E7EB;
     padding: 0;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .fourleft p {
@@ -175,10 +174,11 @@ margin-bottom: 15px;
     border: 0;
     padding: 10px 30px;
     border-radius: 8px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 14px;
     color: #E5E7EB;
     outline: 2px solid #E5E7EB;
+     white-space: nowrap;
 }
 
 .footer {
@@ -187,3 +187,11 @@ margin-bottom: 15px;
     color: #E5E7EB;
     padding: 30px;
 }
+
+.fourleft, .fourright {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+
